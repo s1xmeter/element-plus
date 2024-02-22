@@ -133,3 +133,6 @@ ElMessage({}, appContext)
 | Name  | Description       | Type                    |
 | ----- | ----------------- | ----------------------- |
 | close | close the Message | ^[Function]`() => void` |
+| success | success the Message | ^[Function]`() => void` |
+| warning | warning the Message | ^[Function]`() => void` |
+| error | error the Message | ^[Function]`() => void` |
